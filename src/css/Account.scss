@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sen:wght@400;500;600;700&display=swap');
+
+.account{
+    padding-top: 150px;
+    width: 100%;
+    margin: 0 auto;
+    .account-item{
+        width: 1300px;
+        margin: 0 auto;
+        h2{
+            text-align: center;
+            color: #232536;
+            font-weight: 700;
+            font-size: 48px;
+            font-family: 'Sen';
+            padding-bottom: 50px;
+        }
+        .forms{
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                input{
+                    border: 1px solid #6D6E7680;
+                    width: 50%;
+                    height: 76px;
+                    padding-left: 15px;
+                }
+                .btn{
+                    height: 64px;
+                    background: #FFD050;
+                    border-radius: 5px;
+                    color: #232536;
+                    font-size: 24px;
+                    font-family: 'Sen';
+                    font-weight: 700;
+                    margin-top: 20px;
+                }
+                .logout{
+                    height: 64px;
+                    background: #FFD050;
+                    border-radius: 5px;
+                    color: #232536;
+                    font-size: 24px;
+                    font-family: 'Sen';
+                    font-weight: 700;
+                    margin-top: 5px;
+                    width: 50%;
+                    border: none;
+                }
+            }
+        }
+    }
+}

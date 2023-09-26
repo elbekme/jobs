@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sen:wght@400;500;600;700&display=swap');
+
+.blogs{
+    width: 100%;
+    padding-top: 100px;
+    .blogs-item{
+        width: 1300px;
+        margin: 0 auto;
+        input{
+            width: 100%;
+            height: 60px;
+            padding-left: 10px;
+            border-radius: 5px; 
+            border: 1px solid #6D6E7680;
+            font-size: 16px;
+        }
+        h1{
+            padding-top: 15px;
+            color: #232536;
+            font-size: 48px;
+            font-weight: 700;
+            font-family: 'Sen';
+            padding-bottom: 50px;
+        }
+        .all-box{
+            display: flex;
+            gap: 20px;
+            margin-bottom: 25px;
+            .image-replace{
+                width: 550px;
+                height: 318px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .info{
+                h3{
+                    color: #592EA9;
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: 'Inter';
+                    letter-spacing: 3px;
+                    padding-bottom: 30px;
+                }
+                h5{
+                    color: #232536;
+                    font-size: 36px;
+                    font-weight: 700;
+                    font-family: 'Sen';
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}

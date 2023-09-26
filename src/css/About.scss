@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sen:wght@400;500;600;700&display=swap');
+
+.about{
+    width: 100%;
+    padding-top: 120px;
+    .about-item{
+        width: 1300px;
+        margin : 0 auto;
+        .first{
+            width: 100%;
+            height: 441px;
+            background: #F4F0F8;
+            display: flex;
+            justify-content: space-between;
+            // align-items: center;
+            text-align: left;
+            .first-left{
+                padding: 60px 30px 10px 40px;
+                h4{
+                    font-size: 16px;
+                    color: #232536;
+                    font-weight: 600;
+                    padding-bottom: 20px;
+                }
+                h1{
+                    font-size: 28px;
+                    color: #232536;
+                    font-weight: 700;
+                    font-family: 'Sen';
+                    padding-bottom: 20px;
+                }
+                p{
+                    font-size: 16px;
+                    color: #6D6E76;
+                    font-weight: 400;
+                    font-family:'Inter';
+                    line-height: 28px;
+                }
+            }
+        }
+        .second{
+            margin-top: 80px;
+            width: 100%;
+            height: 480px;
+            display: flex;
+            justify-content: space-between;
+            .second-left{
+                width: 50%;
+                padding: 60px 50px 10px 40px;
+                h2{
+                    color: #232536;
+                    font-weight: 700;
+                    font-family: 'Sen';
+                    padding-bottom: 20px;
+                    font-size: 36px;
+                }
+                h3{
+                    color: #232536;
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Sen';
+                    line-height: 32px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    color: #232536;
+                    line-height: 28px;
+                    font-weight: 400;
+                    font-family: 'Inter';
+                }
+            }
+            .second-right{
+                width: 50%;
+                position: relative;
+                .image{
+                    width: 100%;
+                    height: 100%;
+                }
+                .shape{
+                    position: absolute;
+                    top: 100px;
+                    left: -40px;
+                    width: 103px;
+                    height: 116px;
+                }
+            }
+        }
+        .third{
+            margin-top: 80px;
+            width: 100%;
+            height: 441px;
+            display: flex;
+            justify-content: space-between;
+            // align-items: center;
+            text-align: left;
+            .third-left{
+                width: 50%;
+                position: relative;
+                .about2{
+                    width: 100%;
+                    height: 100%;
+                }
+                .circle{
+                    position: absolute;
+                    left: 100px;
+                    bottom: -8%;
+                    width: 74px;
+                    height: 74px;
+                }
+            }
+            .third-right{
+                width: 50%;
+                padding: 60px 50px 10px 40px;
+                h2{
+                    color: #232536;
+                    font-weight: 700;
+                    font-family: 'Sen';
+                    padding-bottom: 20px;
+                    font-size: 36px;
+                }
+                h3{
+                    color: #232536;
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Sen';
+                    line-height: 32px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    color: #232536;
+                    line-height: 28px;
+                    font-weight: 400;
+                    font-family: 'Inter';
+                }
+            }
+        }
+    }
+}
