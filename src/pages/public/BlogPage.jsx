@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams,  } from "react-router-dom";
-import request from "../server";
-import Hero from '../assets/images/Hero.png';
+import request from "../../server";
+import Hero from '../../assets/images/Hero.png';
 
-import '../css/Blog.scss';
+import '../../css/Blog.scss';
 
 const BlogPage = () => {
   const { blogId } = useParams();

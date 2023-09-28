@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import '../css/Blogs.scss'
-import request from '../server';
-import All from '../assets/images/all.png';
+import '../../css/Blogs.scss'
+import request from '../../server';
+import All from '../../assets/images/all.png';
 
 const BlogsPage = () => {
   const [data, setData] = useState([]);

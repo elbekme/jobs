@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import Local from '../assets/images/local.png';
+import Local from '../../assets/images/local.png';
 import 'swiper/css';
-import '../css/Home.scss'
-import request from '../server';
+import '../../css/Home.scss'
+import request from '../../server';
 
 const HomePage = () => {
   const [data, setData] = useState([]);

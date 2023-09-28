@@ -1,10 +1,10 @@
 import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
-import { AuthContext } from "../context/AuthContext";
-import { TOKEN } from "../constants";
+import { AuthContext } from "../../context/AuthContext";
+import { TOKEN } from "../../constants";
 
-import '../css/Account.scss';
+import '../../css/Account.scss';
 
 const AccountPage = () => {
   const { setIsAuthenticated } = useContext(AuthContext);

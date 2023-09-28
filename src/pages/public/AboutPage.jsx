@@ -1,8 +1,8 @@
-import '../css/About.scss'
-import about from '../assets/images/about.png';
-import shape from '../assets/images/shape.png';
-import about2 from '../assets/images/about-2.png';
-import circle from '../assets/images/circle.png';
+import about from '../../assets/images/about.png';
+import shape from '../../assets/images/shape.png';
+import about2 from '../../assets/images/about-2.png';
+import circle from '../../assets/images/circle.png';
+import '../../css/About.scss'
 
 const AboutPage = () => {
   return <div className="about">
